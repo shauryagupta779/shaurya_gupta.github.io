@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Text Analyzer | Shaurya Gupta</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <script src="scripts/script.js" defer></script>
+</head>
+<body>
+  <nav>
+    <h1>Shaurya</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="analyzer.html" class="active">Textbox</a></li>
+      <li><button id="toggleMode">🌙</button></li>
+    </ul>
+  </nav>
+
+  <section class="content animated fadeIn">
+    <h2>Text Analyzer</h2>
+    <textarea id="inputText" rows="12" placeholder="Paste your 10,000+ words here..."></textarea>
+    <button onclick="analyzeText()" class="btn">Analyze Text</button>
+    <div id="output"></div>
+  </section>
+</body>
+</html>
